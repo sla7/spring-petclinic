@@ -1,8 +1,8 @@
 5 pts Your Github account showing that is has been forked from the depaulcdm/springpetclinic repository. ![Screen Capture #1](images/image_1.png)
 5 pts Your Travis CI dashboard showing a successful first build. ![Screen Capture #1](images/image_2.png)
-5 pts The section of the POM file showing the coordinates after you’ve changed them.
-5 pts Your Travis CI dashboard showing a successful build after your change of the group
-ID.
+5 pts The section of the POM file showing the coordinates after you’ve changed them. ![Screen Capture #1](images/image_3.png)
+5 pts Your Travis CI dashboard showing a successful build after your change of the group 
+ID. ![Screen Capture #1](images/image_3.png)
 5 pts The section of the POM file showing the coordinates after you’ve commented them
 out.
 5 pts Your Travis CI dashboard showing the unsuccessful build after the breaking change.
