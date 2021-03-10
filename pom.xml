@@ -202,6 +202,18 @@
         </executions>
       </plugin>
       <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-dependency-plugin</artifactId>
+	      <version>2.4</version>
+	      <executions>
+		      <execution>
+			      <id>copy-dependencies</id>
+			      <phase>package</phase>
+			      <goals><goal>copy-dependencies</goal></goals>
+		      </execution>
+	      </executions>
+      </plugin>
+      <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>${jacoco.version}</version>
@@ -222,7 +234,7 @@
       </plugin>
 
       <!-- Spring Boot Actuator displays build-related information if a git.properties
-        file is present at the classpath -->
+        file is present at the classpath
       <plugin>
         <groupId>pl.project13.maven</groupId>
         <artifactId>git-commit-id-plugin</artifactId>
@@ -242,7 +254,7 @@
           <failOnNoGitDirectory>false</failOnNoGitDirectory>
         </configuration>
       </plugin>
-
+-->
       <plugin>
         <groupId>ro.isdc.wro4j</groupId>
         <artifactId>wro4j-maven-plugin</artifactId>
